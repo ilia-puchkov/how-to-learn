@@ -297,25 +297,37 @@
 /* Стили для раздела Footer */
 
 .footer {
-  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-top: 90px;
-  overflow: hidden;
-  background-color: black;
   min-height: 350px;
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #000000;
+  color: white;  
 }
 
 .footer__columns {
-  margin-top: 60px;
-  margin-bottom: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
   width: 90%;  
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_info {
+  margin: o auto;
+}
+
+.footer__column_content_social {
+  margin: 0 auto;
 }
 
 .logo__place_footer {
@@ -324,8 +336,9 @@
 }
 
 .footer__author {
-  margin-top: 18px;
-  margin-bottom: 18px;
+  position: absolute;
+  bottom: 18px;
+  left: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -337,12 +350,37 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  color: white;
 }
 
 .footer__column-links {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 16px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: white;
 }
+
+.footer__column-link {
+  display: flex;
+  flex-direction: row;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color:white;
+}
+
+.footer__social-icon {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+ }
+
+ ul {
+  margin-left: 0;
+  padding-left: 0;
+ }
