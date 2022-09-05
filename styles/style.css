@@ -36,7 +36,7 @@
   z-index: 5;
   line-height: 96px;
   font-size: 102px;
-  font-weight: 600;    
+  font-weight: 600;   
   margin-left: 64px;
   margin-top: 0;
   margin-bottom: 0;
@@ -255,7 +255,7 @@
   font-size: 60px;
   font-weight: 600;
   text-align: center;
-  color: white; 
+  color: white;
   z-index: 1;
 }
 
@@ -266,7 +266,7 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-  color: white; 
+  color: white;
   z-index: 2;
 }
 
@@ -314,7 +314,7 @@
   padding-top: 60px;
   padding-bottom: 40px;
   background-color: #1f1f1f;
-  color: white;  
+  color: white;
   box-sizing: border-box;
 }
 
