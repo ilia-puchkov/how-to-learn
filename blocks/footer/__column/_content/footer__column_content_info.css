@@ -1,3 +1,4 @@
 .footer__column_content_info {
-    margin: o auto;
-  }
+  display: flex;
+  flex-direction: column;
+}
